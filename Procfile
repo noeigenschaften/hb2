@@ -1,2 +1,2 @@
 web: python main.py
-server.port=${PORT:5000}
+-Dserver.port=$PORT
