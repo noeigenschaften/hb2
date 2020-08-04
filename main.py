@@ -30,7 +30,7 @@ class Bot(Thread):
 
     def run(self):
 
-        token = config['1351830053:AAEkiLssf5ceqMUDBWvTdiulX9wUc0HdVPA']
+        token = config['TOKEN']
         bot = telebot.TeleBot(token=token)
 
         print('Connecting to DB...')
